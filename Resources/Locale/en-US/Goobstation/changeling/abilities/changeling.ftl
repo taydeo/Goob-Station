@@ -1,4 +1,5 @@
 # Abilities
+changeling-biomass-deficit = Not enough biomass!
 changeling-chemicals-deficit = Not enough chemicals!
 changeling-action-fail-lesserform = Can't use it while in lesser form!
 changeling-action-fail-absorbed = Need to absorb {$number} more organics to use it!
@@ -16,14 +17,16 @@ changeling-transform-cycle-empty = You don't have any DNA strains!
 changeling-transform-others = {CAPITALIZE(THE($user))}'s body twists and takes shape of another being!
 changeling-transform-fail-self = You can't transform into your current form!
 changeling-transform-fail-choose = You did not choose a form to transform into!
+changeling-transform-fail-absorbed = You can't transform a husk!
 changeling-transform-finish = You are now {$target}.
 
-changeling-sting-fail-self = You tried to sting {CAPITALIZE(THE($target))}, but failed!
+changeling-sting-fail-self = You tried to sting {CAPITALIZE(THE($target))}, but something stopped you from doing it!
 changeling-sting-fail-ling = Someone just tried to silently sting you!
 
 changeling-sting = You silently sting {CAPITALIZE(THE($target))}
 changeling-sting-fail-simplemob = You can't sting a lesser creature!
 changeling-sting-extract-fail = Unable to extract DNA
+changeling-sting-extract-max = Need to get rid of the stored DNA beforehand
 
 changeling-stasis-enter = You enter regenerative stasis
 changeling-stasis-enter-fail = Can't enter stasis!
